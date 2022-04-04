@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false)
-    }, 20000);
+    }, 4000);
   }, [])
   return (
     <div className="loadbox">
